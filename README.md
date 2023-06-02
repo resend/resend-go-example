@@ -1,6 +1,6 @@
-# Resend with Example
+# Resend with Go
 
-This example shows how to use Resend with [Example](https://example.com).
+This example shows how to use Resend with [Go](https://go.dev).
 
 ## Prerequisites
 
