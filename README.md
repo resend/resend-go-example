@@ -11,19 +11,29 @@ To get the most out of this guide, you’ll need to:
 
 ## Instructions
 
-1. Replace `re_123456789` on `example.ts` with your API key.
+1. Set your RESEND_API_KEY environment variable by running:
 
-2. Install dependencies:
+```sh
+export RESEND_API_KEY="re_123456789"
+```
 
-  ```sh
-TBD
-  ```
+2. Initialize your go module by running the following command:
 
-3. Execute the following command:
+```sh
+go mod init example.com/example
+```
 
-  ```sh
-TBD
-  ```
+3. Install dependencies:
+
+```sh
+go get github.com/resendlabs/resend-go
+```
+
+4. Execute the following command:
+
+```sh
+go run index.go
+```
 
 ## License
 
