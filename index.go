@@ -1,4 +1,4 @@
-package example
+package main
 
 import (
 	"fmt"
@@ -7,7 +7,7 @@ import (
 	"github.com/resendlabs/resend-go"
 )
 
-func sendEmail() {
+func main() {
 
 	apiKey := os.Getenv("RESEND_API_KEY")
 
@@ -18,7 +18,7 @@ func sendEmail() {
 		From:    "onboarding@resend.dev",
 		To:      []string{"delivered@resend.dev"},
 		Subject: "Hello world",
-		Html:    "<strong>It works!</strong>"
+		Html:    "<strong>It works!</strong>",
 	}
 
 	sent, err := client.Emails.Send(params)
