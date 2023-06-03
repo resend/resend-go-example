@@ -11,11 +11,17 @@ To get the most out of this guide, you’ll need to:
 
 ## Instructions
 
-1. Set your RESEND_API_KEY environment variable with: `export RESEND_API_KEY="re_123456789"`
+1. Set your RESEND_API_KEY environment variable by running:
 
-2. Initialize your go module with:
+```sh
+export RESEND_API_KEY="re_123456789"
+```
 
-`go mod init example.com/example`
+2. Initialize your go module by running the following command:
+
+```sh
+go mod init example.com/example
+```
 
 3. Install dependencies:
 
