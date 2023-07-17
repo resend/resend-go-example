@@ -15,7 +15,7 @@ func main() {
 
 	// Send
 	params := &resend.SendEmailRequest{
-		From:    "onboarding@resend.dev",
+		From:    "Acme <onboarding@resend.dev>",
 		To:      []string{"delivered@resend.dev"},
 		Subject: "Hello world",
 		Html:    "<strong>It works!</strong>",
