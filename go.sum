@@ -1,2 +1,4 @@
+github.com/resend/resend-go/v2 v2.11.0 h1:Ja5eXizUCbvyLgbiP8sFsJW/UN1b7d6IEUqi80IlgiU=
+github.com/resend/resend-go/v2 v2.11.0/go.mod h1:ihnxc7wPpSgans8RV8d8dIF4hYWVsqMK5KxXAr9LIos=
 github.com/resendlabs/resend-go v1.6.0 h1:QnXJv71HVKHS+IDv9anK5XpYCegHH5MLK1W3q4cAvjk=
 github.com/resendlabs/resend-go v1.6.0/go.mod h1:yip1STH7Bqfm4fD0So5HgyNbt5taG5Cplc4xXxETyLI=
