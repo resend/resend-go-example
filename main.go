@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/resendlabs/resend-go"
+	"github.com/resend/resend-go/v2"
 )
 
 func main() {
