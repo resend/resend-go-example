@@ -1,6 +1,6 @@
 # Resend with Go
 
-This example shows how to use Resend with [Go](https://go.dev).
+This example shows how to use Resend with [Go](https://go.dev) using the [Resend Go SDK](https://github.com/resend/resend-go).
 
 ## Prerequisites
 
@@ -20,21 +20,21 @@ export RESEND_API_KEY="re_123456789"
 2. Initialize your go module by running the following command:
 
 ```sh
-go mod init example.com/example
+go mod init github.com/resend/resend-go-example
 ```
 
 3. Install dependencies:
 
 ```sh
-go get github.com/resendlabs/resend-go
+go get github.com/resend/resend-go/v2
 ```
 
 4. Execute the following command:
 
 ```sh
-go run index.go
+go run main.go
 ```
 
 ## License
 
-MIT License
+See [LICENSE](LICENSE).
