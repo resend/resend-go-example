@@ -1,3 +1,11 @@
+> [!IMPORTANT]
+> This repository has been consolidated into the new [resend-examples](https://github.com/resend/resend-examples) monorepo, which contains updated examples for all languages and frameworks.
+>
+> **[View the Go examples here](https://github.com/resend/resend-examples/tree/main/go-resend-examples)**
+
+---
+
+
 # Resend with Go
 
 This example shows how to use Resend with [Go](https://go.dev) using the [Resend Go SDK](https://github.com/resend/resend-go).
